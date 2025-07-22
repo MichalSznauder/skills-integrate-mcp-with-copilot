@@ -1,3 +1,32 @@
+/* Filter bar styles */
+#filter-bar {
+  background: #f0f4ff;
+  border: 1px solid #c5cae9;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+#filter-bar label {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+#filter-bar select,
+#filter-bar input[type="text"] {
+  padding: 6px 10px;
+  border: 1px solid #b0bec5;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+#filter-bar input[type="text"] {
+  min-width: 160px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
